@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #000 !important;
+    text-decoration: none
+}
+
+.app-wrapper {
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 'h h' 'n c';
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    /* grid-gap: ; */
+}
+
+.app-wrapper-content {
+    grid-area: c;
+    background-color: cornflowerblue;
+}
